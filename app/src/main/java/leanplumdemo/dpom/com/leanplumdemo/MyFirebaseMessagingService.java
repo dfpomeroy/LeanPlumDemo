@@ -21,6 +21,6 @@ public class MyFirebaseMessagingService extends LeanplumPushFirebaseMessagingSer
          */
         AirshipFirebaseMessagingService.processMessageSync(getApplicationContext(), remoteMessage);
 
-        Log.i("### ", "Firebase message received");
+        Log.i("Messaging", "Firebase message received");
     }
 }

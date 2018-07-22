@@ -7,13 +7,8 @@ import com.leanplum.Leanplum;
 
 // For tracking user sessions.
 import com.leanplum.LeanplumActivityHelper;
-// For push notifications.
-//import com.leanplum.LeanplumPushService;
 
 import com.leanplum.annotations.Parser;
-//import com.leanplum.annotations.Variable;
-//import com.leanplum.callbacks.StartCallback;
-//import com.leanplum.callbacks.VariablesChangedCallback;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.urbanairship.UAirship;
